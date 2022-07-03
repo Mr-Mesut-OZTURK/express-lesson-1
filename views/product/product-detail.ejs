@@ -1,0 +1,35 @@
+<%- include('../partials/_header') -%>
+
+<style>
+    .form-header {
+        margin-top: 200px;
+    }
+</style>
+
+<div class="container mt-5 pt-5">
+
+
+    <div class="row mt-5">
+
+
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src=<%= product.imgUrl %> class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> <%= product.name %> </h5>
+                    <p class="card-text"> <%= product.description %> </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+<%- include('../partials/_footer') -%>
